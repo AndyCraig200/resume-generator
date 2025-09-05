@@ -1,0 +1,133 @@
+{
+  "personal_info": {
+    "name": "Andy Craig",
+    "email": "andycraig200@gmail.com",
+    "phone": "647-808-9481",
+    "location": "Toronto, Ontario",
+    "github": "https://github.com/AndyCraig200",
+    "linkedin": "https://www.linkedin.com/in/andycraig200"
+  },
+  "education": [
+    {
+      "institution": "Queen's University",
+      "graduation": "Class of 2024",
+      "degree": "First Class Honours, Bachelor's of Applied Science in Computer Engineering",
+      "gpa": "3.5 / 4.0",
+      "location": "Kingston, Ontario",
+      "relevant_coursework": [
+        "Data Structures and Algorithms (C++)",
+        "Distributed Systems",
+        "Data Analytics",
+        "Database Management Systems",
+        "Advanced Computer Architecture",
+        "Software Performance Engineering",
+        "Software Engineering"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ClearEstate",
+      "role": "Full Stack Software Engineer",
+      "location": "Toronto, Ontario",
+      "start_date": "July 2024",
+      "end_date": "Present",
+      "priority": "high",
+      "bullets": [
+        "Develop and enhance features for ClearEstate's estate settlement platform, leveraging Laravel PHP and Vue.js for scalable solutions.",
+        "Optimize the existing codebase, ensuring high performance and reliability through regular code reviews and refactoring.",
+        "Collaborate with cross-functional teams to implement functionalities that streamline estate management and enhance user experience.",
+        "Utilize Git for version control and Jira for project management to coordinate development and ensure timely project delivery."
+      ]
+    },
+    {
+      "company": "Cactus App",
+      "role": "Co-Founder and Lead Developer",
+      "location": "Kingston, Ontario",
+      "start_date": "September 2023",
+      "end_date": "April 2025",
+      "priority": "high",
+      "bullets": [
+        "Co-founded a cross-platform loyalty rewards app, architecting a complete ecosystem with mobile and web applications.",
+        "Led full-stack development of a production-ready platform, implementing features like QR code-based point collection and analytics.",
+        "Exited the company for $20,000 after 19 months, demonstrating strong product-market fit and technical execution."
+      ]
+    },
+    {
+      "company": "Ecobee",
+      "role": "Machine Learning and Data Engineering Intern",
+      "location": "Toronto, Ontario",
+      "start_date": "April 2022",
+      "end_date": "May 2023",
+      "priority": "high",
+      "bullets": [
+        "Maintained production services in the Ecobee ecosystem, including ETL jobs (Apache Beam) and ML pipelines (Kubeflow).",
+        "Engineered an end-to-end evaluation pipeline for a computer vision model, optimizing performance and accuracy.",
+        "Implemented a Kubeflow pipeline for smoke/CO alarm detection, streamlining deployment and enhancing reliability.",
+        "Developed a metrics API to monitor production services, ensuring adherence to SLOs and enabling proactive issue resolution."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Workout Analysis App",
+      "tech": [
+        "Swift",
+        "Tensorflow",
+        "YoloV8",
+        "Python",
+        "Flask"
+      ],
+      "priority": "high",
+      "bullets": [
+        "Led the development of WorkoutPal, an app utilizing YoloV8 for pose estimation and computer vision to enhance workout feedback.",
+        "Designed and deployed an end-to-end ML pipeline for model inference to a SwiftUI iOS app, leveraging AWS for API hosting."
+      ]
+    },
+    {
+      "name": "Pursuit Labs - Task Management AI",
+      "tech": [
+        "Prototyping",
+        "Business Development",
+        "UI/UX Design"
+      ],
+      "priority": "high",
+      "bullets": [
+        "As part of a startup accelerator, led the development of an AI-driven task management platform for mid-to-large scale companies.",
+        "Achieved 2nd place and secured $5,000 funding at the 2021 Canadian Undergraduate Conference on AI (CUCAI), highlighting product innovation."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "SQL",
+      "PHP",
+      "Swift",
+      "Java",
+      "C++",
+      "C",
+      "Go"
+    ],
+    "technologies": [
+      "Google Cloud Ecosystem",
+      "Apache Beam",
+      "TensorFlow",
+      "PyTorch",
+      "Kubernetes",
+      "Docker",
+      "Airflow",
+      "Flask"
+    ],
+    "concepts": [
+      "Machine Learning",
+      "Data Engineering",
+      "Artificial Intelligence",
+      "Cloud Computing",
+      "Distributed Systems",
+      "Data Science",
+      "Neural Networks",
+      "Agile Methodology"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "name": "Workout Analysis App",
+      "tech": ["Swift", "Tensorflow", "YoloV8", "Python", "Flask"],
+      "priority": "high",
+      "bullets": [
+        "Led the development of WorkoutPal, a workout analysis app that uses YoloV8 pose estimation and computer vision to give users feedback on their workout, including repetition analysis, caloric estimation and form feedback.",
+        "Designed and developed an end to end ML pipeline that serves model inference to a SwiftUI iOS application using AWS to host API."
+      ]
+    },
+    {
+      "name": "Pursuit Labs - Task Management AI",
+      "tech": ["Prototyping", "Business Development", "UI/UX Design"],
+      "priority": "high",
+      "bullets": [
+        "As part of a startup accelerator, led the initial development and ideation of an AI-powered task management platform for mid-to-large scale companies.",
+        "Achieved 2nd place and secured $5,000 funding at the 2021 Canadian Undergraduate Conference on AI (CUCAI), showcasing early-stage success and product innovation."
+      ]
+    }
+  ]
+}
+

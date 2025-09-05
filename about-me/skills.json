@@ -1,0 +1,40 @@
+{
+  "languages": [
+    "Python",
+    "PHP",
+    "Swift",
+    "Java",
+    "C++",
+    "C",
+    "Go",
+    "JavaScript",
+    "SQL"
+  ],
+  "technologies": [
+    "Google Cloud Ecosystem",
+    "Apache Beam",
+    "TensorFlow",
+    "Flask",
+    "PyTorch",
+    "Kubernetes",
+    "Docker",
+    "CircleCI",
+    "Airflow"
+  ],
+  "concepts": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Neural Networks",
+    "Data Engineering",
+    "Data Science",
+    "Agile Methodology",
+    "Cloud Computing",
+    "Operating System",
+    "Virtual Memory",
+    "Encryption",
+    "Networks",
+    "Distributed Systems",
+    "User Interfaces"
+  ]
+}
+

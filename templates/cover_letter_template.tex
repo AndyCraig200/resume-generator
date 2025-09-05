@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\pagenumbering{gobble}
+
+% Professional formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+
+\begin{document}
+
+% Header with date
+\begin{flushright}
+{{date}}
+\end{flushright}
+
+\vspace{12pt}
+
+% Recipient information
+{{recipient_name}}\\
+{{company_name}}
+
+\vspace{12pt}
+
+% Salutation
+Dear {{recipient_name}},
+
+% Introduction paragraph
+{{intro}}
+
+% Body paragraphs
+{{#body_paragraphs}}
+{{.}}
+
+{{/body_paragraphs}}
+
+% Closing paragraph
+{{closing}}
+
+\vspace{12pt}
+
+% Sign-off
+Sincerely,
+
+\vspace{24pt}
+
+{{name}}
+
+\end{document}
+
+
+

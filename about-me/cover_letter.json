@@ -1,0 +1,17 @@
+{
+  "name": "Your Name",
+  "date": "YYYY-MM-DD",
+  "recipient_name": "Hiring Manager",
+  "company_name": "Company Name",
+  "position_title": "Software Engineer",
+  "intro": "I am excited to apply for the Software Engineer role at Company Name.",
+  "body_paragraphs": [
+    "At ClearEstate, I develop and enhance features across a Laravel PHP backend and Vue.js frontend, focusing on performance, scalability, and a great user experience.",
+    "Previously at Ecobee, I worked on production ETL and ML pipelines (Apache Beam, Kubeflow) and built evaluation tooling for computer vision models deployed on edge devices.",
+    "Earlier, as a co-founder at Pursuit Labs, I led engineering for an AI-powered product, collaborating closely on product specs and UX while driving from concept to early traction."
+  ],
+  "closing": "I would welcome the opportunity to discuss how my experience can contribute to Company Name."
+}
+
+
+

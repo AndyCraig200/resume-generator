@@ -1,0 +1,32 @@
+Machine Learning Engineer
+
+Join our AI team to build cutting-edge machine learning solutions that power our products and drive business impact.
+
+Key Responsibilities:
+- Design, develop, and deploy machine learning models and pipelines
+- Work with large datasets to extract insights and build predictive models
+- Implement MLOps practices for model versioning, monitoring, and deployment
+- Collaborate with data scientists and software engineers to productionize ML solutions
+- Optimize model performance and scalability for production environments
+- Develop data preprocessing and feature engineering pipelines
+- Monitor model performance and implement continuous improvement processes
+
+Required Skills:
+- 3+ years of experience in machine learning and data engineering
+- Strong programming skills in Python and SQL
+- Experience with ML frameworks (TensorFlow, PyTorch, Scikit-learn)
+- Knowledge of data processing tools (Pandas, NumPy, Apache Beam, Spark)
+- Experience with cloud ML platforms (Google Cloud ML, AWS SageMaker, Azure ML)
+- Understanding of MLOps tools (Kubeflow, MLflow, Airflow)
+- Experience with containerization and orchestration (Docker, Kubernetes)
+- Knowledge of statistical analysis and experimental design
+
+Preferred Skills:
+- PhD or Master's degree in Computer Science, Statistics, or related field
+- Experience with computer vision and deep learning
+- Knowledge of distributed computing and big data technologies
+- Experience with streaming data processing
+- Familiarity with A/B testing and experimentation platforms
+- Strong analytical and problem-solving skills
+
+We're looking for someone passionate about applying machine learning to solve real-world problems at scale.

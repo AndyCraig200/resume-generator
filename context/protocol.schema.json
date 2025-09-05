@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResumeDataProtocol",
+  "type": "object",
+  "properties": {
+    "personal_info": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" },
+        "github": { "type": "string" },
+        "linkedin": { "type": "string" }
+      },
+      "required": ["name"]
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "company": { "type": "string" },
+          "role": { "type": "string" },
+          "location": { "type": "string" },
+          "start_date": { "type": "string" },
+          "end_date": { "type": "string" },
+          "date_range": { "type": "string" },
+          "bullets": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["company", "role", "bullets"]
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "tech": { "type": "array", "items": { "type": "string" } },
+          "tech_display": { "type": "string" },
+          "bullets": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["name", "bullets"]
+      }
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "languages": { "type": "array", "items": { "type": "string" } },
+        "technologies": { "type": "array", "items": { "type": "string" } },
+        "concepts": { "type": "array", "items": { "type": "string" } },
+        "languages_display": { "type": "string" },
+        "technologies_display": { "type": "string" },
+        "concepts_display": { "type": "string" }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "institution": { "type": "string" },
+          "graduation": { "type": "string" },
+          "degree": { "type": "string" },
+          "gpa": { "type": "string" },
+          "location": { "type": "string" },
+          "relevant_coursework": { "type": "array", "items": { "type": "string" } },
+          "coursework_display": { "type": "string" }
+        },
+        "required": ["institution", "degree"]
+      }
+    }
+  },
+  "required": ["personal_info", "experience"]
+}
+
+

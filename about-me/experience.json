@@ -1,0 +1,58 @@
+{
+  "experience": [
+    {
+      "company": "ClearEstate",
+      "role": "Full Stack Software Engineer",
+      "location": "Toronto, Ontario",
+      "start_date": "July 2024",
+      "end_date": "Present",
+      "priority": "high",
+      "bullets": [
+        "Develop and enhance features for ClearEstate's estate settlement platform, utilizing a Laravel PHP backend and Vue.js frontend to deliver robust and user-friendly solutions.",
+        "Maintain and optimize the existing codebase, ensuring high performance, scalability, and reliability of the application through regular code reviews and refactoring.",
+        "Collaborate with cross-functional teams, including product managers and designers, to implement new functionalities that streamline estate management processes and improve user experience.",
+        "Utilize version control systems (Git) and project management tools (Jira) to coordinate development efforts and ensure timely delivery of project milestones."
+      ]
+    },
+    {
+      "company": "Cactus App",
+      "role": "Co-Founder and Lead Developer",
+      "location": "Kingston, Ontario",
+      "start_date": "September 2023",
+      "end_date": "April 2025",
+      "priority": "high",
+      "bullets": [
+        "Co-founded cross-platform loyalty rewards application with 3 other co-founders, architecting and developing a complete ecosystem including customer mobile app (React Native/Expo), storefront mobile app, and business web application (Laravel PHP, Vue.js, PostgreSQL).",
+        "Led full-stack development of production-ready platform serving businesses of any size, implementing core features including QR code-based point collection, rewards management, analytics dashboards, and automated CI/CD pipelines using GitHub Actions and Laravel Forge.",
+        "Successfully exited the company alongside another developer for $20,000 after 19 months of development and market validation, demonstrating strong product-market fit and technical execution."
+      ]
+    },
+    {
+      "company": "Ecobee",
+      "role": "Machine Learning and Data Engineering Intern",
+      "location": "Toronto, Ontario",
+      "start_date": "April 2022",
+      "end_date": "May 2023",
+      "priority": "high",
+      "bullets": [
+        "Oversaw and maintained production services within the Ecobee ecosystem, including ETL batch and streaming jobs (Apache Beam) and ML Pipelines (Kubeflow).",
+        "Engineered an end-to-end evaluation pipeline for a Package Detection computer vision model deployed on doorbell cameras, optimizing model performance and accuracy.",
+        "Orchestrated the implementation of a Kubeflow pipeline for smoke/CO alarm detection, streamlining deployment and enhancing system reliability.",
+        "Developed a custom metrics API to monitor production services, ensuring adherence to Service Level Objectives (SLOs) and facilitating proactive issue resolution."
+      ]
+    },
+    {
+      "company": "IHS Markit",
+      "role": "Strategic Alliances Intern",
+      "location": "Raleigh, VA", 
+      "start_date": "May 2021",
+      "end_date": "September 2021",
+      "priority": "low",
+      "bullets": [
+        "Leveraged programming skills to streamline input data processing and eliminate manual processes",
+        "Utilized Power Automate to automate email content extraction and Excel population, reducing new deal profiling time by approximately 10 minutes per deal.",
+        "Developed Python scripts to automate the processing of redundant records, resulting in a time-saving of approximately 30 hours over 3,000 entries."
+      ]
+    }
+  ]
+}

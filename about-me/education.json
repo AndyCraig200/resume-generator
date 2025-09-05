@@ -1,0 +1,21 @@
+{
+  "education": [
+    {
+      "institution": "Queen's University",
+      "graduation": "Class of 2024",
+      "degree": "First Class Honours, Bachelor's of Applied Science in Computer Engineering",
+      "gpa": "3.5 / 4.0",
+      "location": "Kingston, Ontario",
+      "relevant_coursework": [
+        "Data Structures and Algorithms (C++)",
+        "Distributed Systems",
+        "Data Analytics",
+        "Database Management Systems",
+        "Advanced Computer Architecture",
+        "Software Performance Engineering",
+        "Software Engineering"
+      ]
+    }
+  ]
+}
+

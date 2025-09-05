@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt}
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+{\LARGE {{name}}}\\
+{{location}} \quad | \quad {{email}} \quad | \quad {{phone}}\\
+{{#github}}GitHub: {{github}} {{/github}}{{#linkedin}}\quad | \quad LinkedIn: {{linkedin}}{{/linkedin}}
+\end{center}
+
+\vspace{8pt}
+
+{{#summary}}
+\section*{Summary}
+{{summary}}
+\vspace{4pt}
+{{/summary}}
+
+\section*{Experience}
+{{#experience}}
+\textbf{{{company}}} \hfill {{start_date}} -- {{end_date}}\\
+\emph{{{role}}} \hfill {{location}}\\
+\begin{itemize}
+{{#bullets}}
+  \item {{{.}}}
+{{/bullets}}
+\end{itemize}
+\vspace{4pt}
+{{/experience}}
+
+% Additional sections can be added similarly:
+% \section*{Education}
+% \section*{Skills}
+
+\end{document}
+
+
+

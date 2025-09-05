@@ -1,0 +1,14 @@
+%-----------PROJECTS-----------%
+\vspace{-8pt}
+\section{Projects}
+\resumeSubHeadingListStart
+{{#projects}}
+    \resumeProjectHeading
+    {\textbf{ {{{name}}} } \textbullet{} \textit{ {{{tech_display}}} }}{}
+    \begin{itemize}
+{{#bullets}}
+    \resumeItem{ {{{.}}} }
+{{/bullets}}
+    \end{itemize}
+{{/projects}}
+\resumeSubHeadingListEnd

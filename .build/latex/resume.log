@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  5 SEP 2025 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 SEP 2025 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -493,7 +493,7 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 6.
-) (./src/education.tex
+) (./src/experience.tex
 
 LaTeX Font Warning: Font shape `OT1/lato-TLF/m/sc' undefined
 (Font)              using `OT1/lato-TLF/m/n' instead on input line 3.
@@ -501,12 +501,12 @@ LaTeX Font Warning: Font shape `OT1/lato-TLF/m/sc' undefined
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 8.
+(Font)              <10.95> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
+(Font)              <6> on input line 7.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 7.
 
 
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/ulasy.
@@ -514,31 +514,28 @@ fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 8.
+(Font)              scaled to size 10.95pt on input line 7.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 8.
+(Font)              scaled to size 10.0pt on input line 7.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 10.
+(Font)              scaled to size 6.0pt on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 10.
-) (./src/experience.tex
-LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 3.
+(Font)              <5> on input line 9.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 20.
+ine 19.
 
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lato/TS1lat
 o-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 20.
+(Font)              scaled to size 10.0pt on input line 19.
 ) (./src/projects.tex
+LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 3.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 6.
-LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 6.
-) (./src/skills.tex
+) (./src/education.tex) (./src/skills.tex)
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -558,14 +555,7 @@ nc/dvips/lato/a_y72t7m.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf
 brew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa
 5brands0.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/en
 c/dvips/lato/a_vc7epu.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-
-dist/fonts/enc/dvips/lato/a_rt66h3.enc}])
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./resume.aux (./custom-commands.aux))
+dist/fonts/enc/dvips/lato/a_rt66h3.enc}] (./resume.aux (./custom-commands.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -575,16 +565,16 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
+(rerunfilecheck)             Checksum: A90CA0ED714EA1C0F18D39120C5479BC;390.
  ) 
 Here is how much of TeX's memory you used:
- 14737 strings out of 473190
- 261606 string characters out of 5704335
- 667991 words of memory out of 5000000
- 37771 multiletter control sequences out of 15000+600000
- 601482 words of font info for 72 fonts, out of 8000000 for 9000
+ 14734 strings out of 473190
+ 261552 string characters out of 5704335
+ 669991 words of memory out of 5000000
+ 37770 multiletter control sequences out of 15000+600000
+ 600801 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,363b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,418b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/
 fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20250
 308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.p
@@ -594,10 +584,10 @@ nd/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist
 08_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></opt/homebrew
 /Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 6.pfb>
-Output written on resume.pdf (2 pages, 108961 bytes).
+Output written on resume.pdf (1 page, 108798 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

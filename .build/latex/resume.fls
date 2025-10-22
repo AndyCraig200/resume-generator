@@ -190,9 +190,11 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawe
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm
-INPUT ./src/education.tex
-INPUT ./src/education.tex
-INPUT src/education.tex
+INPUT ./src/experience.tex
+INPUT ./src/experience.tex
+INPUT ./src/experience.tex
+INPUT ./src/experience.tex
+INPUT src/experience.tex
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-OT1-TLF.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
@@ -212,11 +214,6 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typolan
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-OT1-TLF.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-OT1-TLF.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
-INPUT ./src/experience.tex
-INPUT ./src/experience.tex
-INPUT ./src/experience.tex
-INPUT ./src/experience.tex
-INPUT src/experience.tex
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
@@ -227,7 +224,9 @@ INPUT ./src/projects.tex
 INPUT ./src/projects.tex
 INPUT src/projects.tex
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-OT1-TLF.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF.tfm
+INPUT ./src/education.tex
+INPUT ./src/education.tex
+INPUT src/education.tex
 INPUT ./src/skills.tex
 INPUT ./src/skills.tex
 INPUT src/skills.tex
@@ -254,8 +253,6 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typolan
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-OT1-TLF.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-OT1-TLF--base.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-TS1-TLF.vf
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF--base.tfm
 INPUT resume.aux
 INPUT ./custom-commands.aux
 INPUT ./custom-commands.aux

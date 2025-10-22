@@ -1,4 +1,4 @@
-# Context Directory
+# Context Directorys
 
 Add your contextual information here to help with resume and cover letter generation.
 
@@ -7,5 +7,4 @@ Suggested files:
 - `experience.md` - Work experience and achievements
 - `skills.md` - Technical and soft skills
 - `education.md` - Educational background
-- `projects.md` - Notable projects and accomplishments
-- `prompts.md` - Prompts and instructions for AI generation
+- `projects.md` - Notable projects and accomplishmentss

@@ -1,0 +1,281 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "🚀 Full Pipeline - Software Engineer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🚀 Full Pipeline - ML Engineer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_ml_engineer.txt"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🚀 Full Pipeline - Custom Job (Input Required)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${input:jobDescriptionFile}",
+                                "--concise"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🧪 Dry Run - Full Pipeline",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt",
+                "--dry-run"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "📊 Step 1 Only - LLM Filtering",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt",
+                "--step", "1"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "✨ Step 2 Only - LLM Optimization",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt",
+                "--step", "2"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "📄 Step 3 Only - PDF Generation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt",
+                "--step", "3"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🔧 Direct Step 1 - Relevance Filter",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/step1_relevance_filter.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt",
+                "--output", "intermediate-outputs/debug_step1.json"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🔧 Direct Step 2 - LLM Optimize",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/step2_llm_optimize.py",
+            "console": "integratedTerminal",
+            "args": [
+                "intermediate-outputs/debug_step1.json",
+                "job-applications/example_software_engineer.txt",
+                "--output", "intermediate-outputs/debug_step2.json"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🔧 Direct Step 3 - PDF Generate",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/step3_generate_pdf.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${input:optimizedResumeFile}",
+                "--output", "workshop/resume_andy_craig.pdf"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🧪 Test Pipeline Components",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/test_pipeline.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🔑 Setup Environment",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/setup_env.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "📝 Combine JSON Files",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/combine_json.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🏗️ Legacy Build Resume",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/build_resume.py",
+            "console": "integratedTerminal",
+            "args": [
+                "about-me/optimized_resume.json"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🎯 Custom Pipeline Configuration",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${input:jobDescriptionFile}",
+                "--max-experiences", "${input:maxExperiences}",
+                "--max-projects", "${input:maxProjects}",
+                "--output-dir", "${input:outputDir}"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "📝 Concise Resume - Software Engineer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/resume_pipeline.py",
+            "console": "integratedTerminal",
+            "args": [
+                "job-applications/example_software_engineer.txt",
+                "--concise"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🐛 Debug Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "jobDescriptionFile",
+            "description": "Job description file path",
+            "default": "job-applications/example_software_engineer.txt",
+            "type": "promptString"
+        },
+        {
+            "id": "optimizedResumeFile",
+            "description": "Optimized resume file path",
+            "default": "workshop/input_resume.json",
+            "type": "promptString"
+        },
+        {
+            "id": "maxExperiences",
+            "description": "Maximum number of experiences to include",
+            "default": "3",
+            "type": "promptString"
+        },
+        {
+            "id": "maxProjects",
+            "description": "Maximum number of projects to include",
+            "default": "2",
+            "type": "promptString"
+        },
+        {
+            "id": "outputDir",
+            "description": "Output directory for intermediate files",
+            "default": "intermediate-outputs",
+            "type": "promptString"
+        }
+    ]
+}
